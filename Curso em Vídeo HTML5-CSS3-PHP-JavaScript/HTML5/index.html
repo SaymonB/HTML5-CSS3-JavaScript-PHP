@@ -1,23 +1,55 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Dicionário</title>
-</head>
-<body>
-    <h1>Dicionário de tags HTML5</h1>
-    <h2>O que faz cada tag</h2>
-    <p>
-        Vamos começar pela tag da primeira linha: <br>
-        &lt;!DOCTYPE html&gt;: Define o tipo do documento como HTML;
-    </p>
-    <p>
-        Mais adiante, temos a tag &lt;html&gt;: Esta tag indica o bloco onde o seu código html deverá ser 
-        escrito. Nesta tag podemos utilizar o parâmetro &lt;html lang="pt-br"&gt;, por exemplo. assim, podemos 
-        mudar o idioma <br>deste documento. Mas este tag não traduz!
-    </p>
+   
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Layout 3 colunas</title>
+<link type="text/css" rel="stylesheet" media="screen" href="../CSS3/style_index.css" />
 
+</head>
+
+<body>
+<div id="Pagina">
+
+<div id="header"></div>
+
+<h1>Dicionário de tags HTML5</h1>
+<h2>O que faz cada tag</h2>
+
+<div id="Principal">
+    <div id="Esquerda">
+<p>
+    Vamos começar pela tag da primeira linha: <br>
+    &lt;!DOCTYPE html&gt;: Define o tipo do documento como HTML;
+</p>
+<p>
+    Mais adiante, temos a tag &lt;html&gt;: Esta tag indica o bloco onde o seu código html deverá ser 
+    escrito. Nesta tag podemos utilizar o parâmetro &lt;html lang="pt-br"&gt;, por exemplo. assim, podemos 
+    mudar o idioma <br>deste documento. Mas este tag não traduz!
+</p>
+<p>
+    A próxima tag seria &lt;hea&gt;:
+    Esta tag é responsável por toda a parte de configurações da página. <br>
+    Ela que é responsável por: definir a codificação, definir o título da página, definir o link con a folha de estilos CSS3, etc. <br>
+    Lembre-se de que esta tag tem fechamento: &lt;/head&gt;
+</p>
+<p>
+    Agora passaremos para a parte de dentro da tag &lt;head&gt;&lt;/head&gt;: <br>
+    Dentro da tag &lt;head&gt;&lt;/head&gt;, a primeira tag que convém que seja escrita é a tag &lt;meta&gt; que não tem fechamento. <br>
+    Essa tag será escrita no mínimo duas vezes mas, com adições diferentes. Veja adiante: <br>
+    &lt;meta charset="UTF-8"&gt; ---- Define a codificação da página para que possamos utilizar acentos e outras coisas;
+    &lt;meta name="viewport" content="width=device-width, initial-scale=1.0&gt; ---- Configura a página para ocupar todo o espaço oferecido pelo navegador, podendo assim, se ajustar de acordo com o tamanho da tela do navegador.
+</p></div>
+<div id="Direita">
+    
+</div>
+
+</div>
+
+<div id="footer"></div>
+
+</div>
 </body>
 </html>
+
