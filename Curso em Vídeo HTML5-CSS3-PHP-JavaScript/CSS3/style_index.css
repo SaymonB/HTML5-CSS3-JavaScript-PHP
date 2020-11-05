@@ -1,0 +1,35 @@
+#Pagina{
+  width:1000px;
+  height:700px;
+  margin-top:0;
+  margin-left:auto;
+  margin-bottom:0;
+  margin-right:auto;
+  background-color:rgb(255, 255, 255);
+}
+#header{
+  width:1000px;
+  height:100px;
+  background-color:rgb(235, 235, 235);
+  }
+#Principal{
+  width:1000px;
+  height:500px;
+  background-color:rgb(255, 255, 255);
+}
+#footer{
+  width:1000px;
+  height:100px;
+  background-color:rgb(235, 235, 235);
+  }#Esquerda{
+    width:500px;
+    height:500px;
+    float:left;
+    background-color:rgb(255, 255, 255);
+    }
+  #Direita{
+    width:500px;
+    height:500px;
+    float:left;
+    background-color:rgb(248, 241, 241);
+    }
